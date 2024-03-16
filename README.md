@@ -25,8 +25,8 @@ var retweetTweets = function() {
                     console.log("Could not retweet.");
                 }
 
-                // Check if retweet count reaches the limit (e.g., 100)
-                if (retweetCount >= 100) {
+                // Check if retweet count reaches the limit (e.g., 300)
+                if (retweetCount >= 300) {
                     console.log("Reached the retweet limit. Stopping script.");
                     return; // Stop the script
                 }
